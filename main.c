@@ -20,4 +20,5 @@ int Factoriel(int a)
     for(i=a-1; i>=1; i--){
         a *= i;
     }
+    //MON COMENTAIRE//
 }
