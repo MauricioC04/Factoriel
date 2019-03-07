@@ -13,13 +13,18 @@ int main()
     return EXIT_SUCCESS;
 }
 
-int Factoriel(int a)
+int Factoriel(int f)
 {
-    int i;
+    int total
 
-    for(i=a-1; i>=1; i--){
-        a *= i;
+    if(f==0){
+        return 1;
     }
+    else{
+        total = f*Factoriel(f-1);
+        return total
+    }
+
     //MON COMENTAIRE//
     //MON COMMENTAIRE SUR BRANCHE RECURISION//
     //MON COMMENTAIRE SUR BRANCHE RECURISION//
