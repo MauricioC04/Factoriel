@@ -9,6 +9,7 @@
 int main()
 {
     int val_user;
+    int test = 2;
 
     printf("Entrez un nombre: ");
     scanf("\n%i", &val_user);
