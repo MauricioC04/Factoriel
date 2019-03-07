@@ -18,17 +18,28 @@ int main()
     return EXIT_SUCCESS;
 }
 
+
 /** \brief MaFactoriel de ouf
  *
  * \param a int
  * \return int
  *
  */
-int Factoriel(int a)
-{
-    int i;
 
-    for(i=a-1; i>=1; i--){
-        a *= i;
+int Factoriel(int f)
+
+{
+    int total
+
+    if(f==0){
+        return 1;
     }
+    else{
+        total = f*Factoriel(f-1);
+        return total
+    }
+
+    //MON COMENTAIRE//
+    //MON COMMENTAIRE SUR BRANCHE RECURISION//
+    //MON COMMENTAIRE SUR BRANCHE RECURISION//
 }
