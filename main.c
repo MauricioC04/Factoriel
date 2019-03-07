@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/** \brief principalement principal
+ *
+ * \return int
+ *
+ */
 int main()
 {
     int val_user;
@@ -13,6 +18,12 @@ int main()
     return EXIT_SUCCESS;
 }
 
+/** \brief MaFactoriel de ouf
+ *
+ * \param a int
+ * \return int
+ *
+ */
 int Factoriel(int a)
 {
     int i;
